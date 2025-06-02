@@ -39,7 +39,6 @@ All data is presented on a real-time web dashboard hosted directly by the ESP32 
 
 The ESP32 creates or connects to a **local Wi-Fi network**. It does **not require Internet**. IP is assigned by the router. Access the dashboard by opening the ESP32's IP in a web browser.
 
-> Example: `http://192.168.1.42`
 
 ---
 
@@ -57,18 +56,20 @@ The ESP32 creates or connects to a **local Wi-Fi network**. It does **not requir
 - **Test location**: Classroom environment
 - **Duration**: 20-minute continuous logging sessions
 - **Conditions**:
-  - Room temp ~30°C
-  - Humidity ~55%
-  - Local Wi-Fi router without internet
+  - Room temp ~31°C
+  - Humidity ~57%
+  - Hotspot 4G wifi
 
 ---
 
 ## 📊 Sample Output
 
-| Time     | Heart Rate (BPM) | SpO₂ (%) | Body Temp (°C) | Room Temp (°C) | Humidity (%) |
-|----------|------------------|----------|----------------|----------------|---------------|
-| 14:00:00 | 78               | 98       | 36.5           | 30.2           | 55            |
-| 14:00:10 | 81               | 97       | 36.6           | 30.3           | 56            |
+![image](https://github.com/user-attachments/assets/93390bae-e346-4589-91e2-00a6bf92df7a)
+
+![image](https://github.com/user-attachments/assets/d9f29aa7-4a91-427e-9b6f-7ca3576f8ad1)
+
+![image](https://github.com/user-attachments/assets/97be5643-fef7-4449-bdbf-a05d4e3d94e7)
+
 
 ---
 
@@ -86,11 +87,8 @@ The ESP32 creates or connects to a **local Wi-Fi network**. It does **not requir
 
 - Add auto-reconnect for Wi-Fi.
 - Implement cloud storage (e.g., Firebase).
-- Replace DHT11 with more accurate sensors (e.g., DHT22 or BME280).
 - Add user-defined thresholds for personalized alerts.
 - Support mobile-friendly UI and data export.
 
 ---
-
-## 📁 File Structure
 
